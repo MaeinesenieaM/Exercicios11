@@ -3,8 +3,7 @@
 
 float imc (float quilos, float altura)
 {
-	float imc = quilos / (altura * altura);
-	return imc;
+	return quilos / (altura * altura);
 }
 
 float readfloat (char *texto, float *entrada)
