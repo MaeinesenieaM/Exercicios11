@@ -6,7 +6,7 @@ float imc (float quilos, float altura)
 	return quilos / (altura * altura);
 }
 
-float readfloat (char *texto, float *entrada)
+float readfloat (const char *texto, float *entrada)
 {
 	fflush(stdin);
 	printf ("%s: ", texto);
