@@ -19,7 +19,7 @@ int main ()
 {
 	float peso, altura;
 
-	//Aparentemente o setlocale tambêm muda o jeito que o programa responde a números,
+	//Aparentemente o setlocale também muda o jeito que o programa responde a números,
 	//então quando digitar algum número quebrado use ',' em vez de '.'
 	setlocale (LC_ALL, "Portuguese");
 
